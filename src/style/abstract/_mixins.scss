@@ -1,0 +1,11 @@
+@import "./variables";
+
+@mixin whitebtn(){
+    background-color: white;
+    color : black;
+}
+
+@mixin blackbtn(){
+    background-color: black;
+    color: white;
+}

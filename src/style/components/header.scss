@@ -1,0 +1,83 @@
+@import "../abstract/variables";
+
+@media (max-width: $large_screen) {
+    .wrap_header_page{
+        position: fixed;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        box-shadow: 0px 5px 10px black;
+        transform: translateY(-100px);
+        transition: 1s ease-in-out;
+        z-index: 1;
+    }
+    .name_app{
+        color: white;
+        font-size: $font_head_small;
+    }
+
+    .header_page{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 1% 7%;
+    }
+    .wrap_logo_header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:max-content;
+        column-gap: 10px;
+    }
+    .logo_header{
+        width: 50px;
+        border-radius: 20px;
+    }
+
+    .wrap_nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 30px;
+    }
+
+    .nav_op{
+        color: $blur_text;
+        font-weight: bold;
+        font-size: $font_large;
+        cursor: pointer;
+        transition: 0.25s ease-in-out;
+    }
+
+    .nav_op:hover{
+        color: $white;
+    }
+
+    .imageuser{
+        width: 35px;
+        border-radius: 50%;
+        opacity: 0.5;
+        transition: 0.25s ease-in-out;
+    }
+    .imageuser:hover{
+        opacity: 1;
+    }
+
+}
+
+@media (max-width : $medium_screen) and (min-width : $small_screen){
+
+}
+
+@media (max-width : $small_screen) {
+    
+}

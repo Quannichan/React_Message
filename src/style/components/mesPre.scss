@@ -1,0 +1,77 @@
+@import "../abstract/variables";
+
+@media (max-width : $large_screen){
+    .wrap_mesPre{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 100%;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .wrap_mesPre:hover{
+        background-color: rgb(225, 225, 225);
+    }
+    .wrap_leftMes{
+        padding: 1% 5%;
+        flex-basis: 90%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .iconuserpre{
+        border-radius: 50%;
+        width: 50px;
+    }
+    .name_mes{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .mes_preview{
+        font-size: 14px;
+        color: $blur_text;
+    }
+    .wrap_rightMes{
+        flex-basis: 10%;
+    }
+    .seendotIcon{
+        width: 12px;
+        border-radius: 50%;
+    }
+    .me_unseenDot{
+        width: 11px;
+        height: 11px;
+        background-color:  rgb(2, 151, 210);
+        border-radius: 50%;
+    }
+    .me_seen{
+        width: 10px;
+        height: 10px;
+        background-color: transparent;
+        border-radius: 50%;
+    }
+    .unseen{
+        width: 7px;
+        border-radius: 50%;
+        margin: 2px;
+    }
+    .wrap_status_unseen{
+        width: fit-content;
+        height: fit-content;
+        background-color: rgb(196, 196, 196);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3%;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width : $medium_screen) and (min-width : $small_screen){
+
+}
+
+@media (max-width: $small_screen) {
+    
+}

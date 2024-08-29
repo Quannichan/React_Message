@@ -1,0 +1,40 @@
+@media (max-width :1440px){
+    
+    .black_btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        background-color: $black;
+        color: $white;
+        font-size: $font_large;
+        border-radius: 20px;
+        padding: 7%;
+    }
+}
+@media (max-width :860px) and (min-width : 320px){
+    .black_btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        background-color: $black;
+        color: $white;
+        font-size: $font_medium;
+        border-radius: 20px;
+        padding: 7%;
+    }
+}
+@media (max-width : 390px){
+    .black_btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        background-color: $black;
+        color: $white;
+        font-size: $font_small;
+        border-radius: 20px;
+        padding: 7%;
+    }
+}

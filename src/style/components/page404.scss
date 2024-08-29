@@ -1,0 +1,43 @@
+@import "../abstract/variables";
+    .wrap_page{
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .wrap_text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon{
+        width: 70px;
+        border-radius: 50%;
+    }
+
+    .text{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: $font_head_large;
+        animation: flow 5s infinite;
+        column-gap: 10px;
+        text-wrap: nowrap;
+    }
+
+    @keyframes flow {
+        0%{
+            transform: translateY(-20px);
+        }
+        50%{
+            transform: translateY(20px);
+        }
+
+        100%{
+            transform: translateY(-20px);
+        }
+    }

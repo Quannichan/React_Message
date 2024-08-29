@@ -1,0 +1,74 @@
+@import "../abstract/variables";
+
+@media (max-width: $large_screen) {
+    .wrap_mesdot_me{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 100%;
+    }
+    .mesdot_me{
+        text-align: left;
+        max-width: 50%;
+        min-width: auto;
+        word-wrap:break-word;
+        text-wrap:balance;
+        background-color: rgb(2, 151, 210) ;
+        padding: 10px 20px;
+        color: $white;
+        font-size: $font_large;
+        border-radius: 20px;
+    }
+    .wrap_mesdot{
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        align-items: end;
+        width: 100%;
+    }
+    .mesdot{
+        text-align: left;
+        max-width: 50%;
+        min-width: auto;
+        word-wrap:break-word;
+        text-wrap:balance;
+        margin: 0px 0px 0px 5px;
+        background-color:  rgb(129, 129, 129);
+        padding: 10px 20px;
+        color: $white;
+        font-size: $font_large;
+        border-radius: 20px;
+    }
+    .mesdot_nonicon{
+        text-align: left;
+        max-width: 50%;
+        min-width: auto;
+        word-wrap:break-word;
+        text-wrap:balance;
+        margin: 0px 0px 0px 47px;
+        background-color: rgb(129, 129, 129) ;
+        padding: 10px 20px;
+        color: $white;
+        font-size: $font_large;
+        border-radius: 20px;
+    }
+    .wrap_icon_userdot{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .iconuserdot{
+        width: 33px;
+        border-radius: 50%;
+   }
+    
+}
+
+@media (max-width : $medium_screen) and (min-width : $small_screen){
+
+}
+
+@media (max-width : $small_screen) {
+    
+}

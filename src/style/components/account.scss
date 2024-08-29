@@ -1,0 +1,35 @@
+@import "../abstract/variables";
+
+@media (max-width: $large_screen) {
+    .wrap_accCompo{
+        margin-top: 3%;
+        
+    }
+    .accCompo{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .imguser_acc{
+        border-radius: 50%;
+        width: 150px;
+        border:solid 2px black ;
+        box-shadow: 0px 10px 30px black;
+    }
+
+    .nameuser_acc{
+            font-size: 30px;
+    }
+
+}
+
+@media (max-width : $medium_screen) and (min-width : $small_screen){
+
+}
+
+@media (max-width : $small_screen) {
+    
+}
